@@ -1,0 +1,65 @@
+<figure class="text-center text-bg-secondary p-3">
+  <blockquote class="blockquote">
+    <h1 class="display-3">User Profile</h1>
+  </blockquote>
+
+  <h2 class="text-bg-light display-5 p-3 w-50 m-auto p-3 col-sm-4">
+    Name: <%= user.name %>
+  </h2>
+  <h2 class="text-bg-light display-6 p-3 w-50 m-auto p-3 col-sm-4">
+    Email: <%= user.email %>
+  </h2>
+</figure>
+
+<form
+  class="w-25 m-auto p-3 border border-light border-3"
+  action="/users/update/<%= user._id %>"
+  method="POST"
+>
+  <div class="row mb-3 m-auto">
+    <label for="inputemail" class="col-sm-4 col-form-label">Email</label>
+    <div class="col-sm-7">
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        disabled
+        value="<%= user.email %>"
+        required
+        class="form-control"
+        id="inputemail"
+      />
+    </div>
+  </div>
+  <div class="row mb-3 m-auto">
+    <label for="inputname" class="col-sm-4 col-form-label">Name</label>
+    <div class="col-sm-7">
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        value="<%= user.name %>"
+        required
+        class="form-control"
+        id="inputname"
+      />
+    </div>
+  </div>
+
+  <div class="row mb-3 m-auto">
+    <label for="inputpassword" class="col-sm-4 col-form-label">Password</label>
+    <div class="col-sm-7">
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        class="form-control"
+        id="inputpassword"
+      />
+    </div>
+  </div>
+
+  <div class="col-5 mt-3 mx-auto">
+    <button type="submit" class="btn btn-primary">Update Profile</button>
+  </div>
+</form>

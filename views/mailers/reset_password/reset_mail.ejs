@@ -1,0 +1,14 @@
+<div class="bg-success p-2 text-dark bg-opacity-50">
+  <blockquote class="blockquote text-center">
+    <h1 class="display-5">Hi <%=user.name %></h1>
+    <p>
+      We received a request to reset your password for the account <%=
+      user.email %>
+    </p>
+    <h5 class="display-5">
+      <a href="http://localhost:8000/users/reset_password/<%= token.token %>"
+        >Click me to verify through Email
+      </a>
+    </h5>
+  </blockquote>
+</div>

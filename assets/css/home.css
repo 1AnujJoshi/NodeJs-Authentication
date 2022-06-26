@@ -1,0 +1,25 @@
+.home-container {
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(75, 71, 71);
+}
+h1 a {
+  text-decoration: none;
+}
+
+#google-form {
+  position: fixed;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  font-size: 5rem;
+}

@@ -1,0 +1,77 @@
+<h1 style="text-align: center">Sign Up</h1>
+
+<form
+  class="w-25 m-auto p-3 mt-5 border border-light border-3"
+  action="/users/create"
+  method="POST"
+>
+  <div class="row mb-3">
+    <label for="inputname" class="col-sm-5 col-form-label">Name</label>
+    <div class="col-sm-7">
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+        class="form-control"
+        id="inputname"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-5 col-form-label">Email</label>
+    <div class="col-sm-7">
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+        class="form-control"
+        id="inputEmail3"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-5 col-form-label">Password</label>
+    <div class="col-sm-7">
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        required
+        class="form-control"
+        id="inputPassword3"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputconfpassword" class="col-sm-5 col-form-label"
+      >Confirm Password</label
+    >
+    <div class="col-sm-7">
+      <input
+        type="password"
+        name="confirm_password"
+        placeholder="Confirm Password"
+        required
+        class="form-control"
+        id="inputconfpassword"
+      />
+    </div>
+  </div>
+  <div class="col-3 mx-auto">
+    <input type="submit" class="btn btn-primary" value="Sign Up" />
+  </div>
+  <div class="mt-4 fs-4 border-top text-center border-info p-2 mx-auto">
+    <p>
+      <a style="text-decoration: none" href="/users/auth/google">
+        <img
+          class="m-3"
+          src="https://cdn-icons-png.flaticon.com/512/300/300221.png"
+          style="width: 20px; text-decoration: none"
+          alt=""
+        />Google Sign In / Sign Up</a
+      >
+    </p>
+  </div>
+</form>

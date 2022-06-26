@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/css/home.css" />
+
+<% if (locals.user) { %>
+<h1 class="display-5">
+  <%= user.name %>
+  <small class="text-muted">has successfully logged in!!!</small>
+</h1>
+
+<% } else { %>
+<div>
+  <h1 class="display-5">
+    You need to <a href="/users/sign-in"> sign in</a> /
+    <a href="/users/sign-up">sign up </a> first
+  </h1>
+</div>
+
+<% } %>
