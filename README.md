@@ -8,6 +8,7 @@ Create .env file.
 
 # Features
 Google Sign-in/Sign-up.
+User can edit their name and password.
 Forgot password (you can send a reset password link which expires in some time).
 The password stored in the db is encrypted.
 Used Bootstrap for CSS.
