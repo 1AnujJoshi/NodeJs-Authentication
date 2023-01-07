@@ -19,6 +19,8 @@ Display notifications for
 
 - unmatching passwords during sign up
 - incorrect password during sign in
+- unmatching passwords during sign up
+- incorrect password during sign in
 
 # Sample images of the project
 
