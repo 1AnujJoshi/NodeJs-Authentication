@@ -28,7 +28,6 @@ Display notifications for
 ![2022-06-26 (1)](https://user-images.githubusercontent.com/101502385/175806685-62a0c78b-814b-4d7e-8c20-099398618af7.png)
 ![2022-06-26 (2)](https://user-images.githubusercontent.com/101502385/175806692-4574a219-b129-4aee-b08a-e9d8915d8898.png)
 ![2022-06-26 (4)](https://user-images.githubusercontent.com/101502385/175806706-98f45be4-19c8-4e3d-8ab2-b2adf694e7ad.png)
-![2022-06-26 (8)](https://user-images.githubusercontent.com/101502385/175806695-45cb4bbd-652e-4786-a353-10d2b3eeb3b1.png)
 
 #Hosted URL
 https://nodejs-authentication-9fw7.onrender.com
